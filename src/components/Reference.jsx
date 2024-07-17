@@ -24,8 +24,8 @@ const Reference = () => {
         px: { xs: 2, sm: 3, md: 5 },
       }}
     >
-      <Grid container justifyContent="center" alignItems="center" spacing={2} style={{marginTop:"4%"}}>
-        <Grid item xs={12} md={8}>
+      <Grid container justifyContent="center" alignItems="center" spacing={2} style={{marginTop:"4%",marginRight:"4%"}}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2 }}>
             <Typography noWrap>
               <SimpleTreeView>
@@ -46,7 +46,7 @@ const Reference = () => {
             </Typography>
           </StyledPaper>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2 }}>
             <Typography noWrap>
               <SimpleTreeView>
@@ -67,7 +67,7 @@ const Reference = () => {
             </Typography>
           </StyledPaper>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2 }}>
             <Typography noWrap>
               <SimpleTreeView>
@@ -88,7 +88,7 @@ const Reference = () => {
             </Typography>
           </StyledPaper>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2 }}>
             <Typography noWrap>
               <SimpleTreeView>
@@ -109,7 +109,7 @@ const Reference = () => {
             </Typography>
           </StyledPaper>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2 }}>
             <Typography noWrap>
               <SimpleTreeView>
@@ -130,7 +130,7 @@ const Reference = () => {
             </Typography>
           </StyledPaper>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2 }}>
             <Typography noWrap>
               <SimpleTreeView>

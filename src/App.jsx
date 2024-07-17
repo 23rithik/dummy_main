@@ -15,6 +15,9 @@ import Wsubmitlink3 from './components/Wsubmitlink3'
 import Wsubmitlink4 from './components/Wsubmitlink4'
 import Wsubmitlink5 from './components/Wsubmitlink5'
 import Wsubmitlink6 from './components/Wsubmitlink6'
+import Wsubmitform1 from './components/Wsubmitform1'
+import Fsubmit from './components/Fsubmit'
+import Vivavoce from './components/Vivavoce'
 
 function App() {
 
@@ -31,7 +34,11 @@ function App() {
       <Route path={'/wsubmitlink4'} element={<Main child={<Wsubmitlink4/>}/>}></Route>
       <Route path={'/wsubmitlink5'} element={<Main child={<Wsubmitlink5/>}/>}></Route>
       <Route path={'/wsubmitlink6'} element={<Main child={<Wsubmitlink6/>}/>}></Route>
+      <Route path={'/fsubmit'} element={<Main child={<Fsubmit/>}/>}></Route>
+      <Route path={'/wsubmitform1'} element={<Main child={<Wsubmitform1/>}/>}></Route>
+      <Route path={'/vivavoce'} element={<Main child={<Vivavoce/>}/>}></Route>
       <Route path={'/discussion'} element={<Main child={<DiscussionForum  />}/>}></Route>
+      
       
       
       </Routes>

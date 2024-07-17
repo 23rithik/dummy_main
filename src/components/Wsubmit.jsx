@@ -32,6 +32,10 @@ const Wsubmit = () => {
     createData('Week 2', 'Not Graded', null, 'Awaiting feedback'),
     createData('Week 3', 'Not Graded', null, 'Awaiting feedback'),
     createData('Week 4', 'Not Graded', null, 'Awaiting feedback'),
+    createData('Week 5', 'Not Graded', null, 'Awaiting feedback'),
+    createData('Week 6', 'Not Graded', null, 'Awaiting feedback'),
+    createData('final', 'Not Graded', null, 'Awaiting feedback'),
+    createData('viva', 'Not Graded', null, 'Awaiting feedback'),
     // Add more rows as needed
   ]);
   const [progressValue, setProgressValue] = useState(0);
@@ -54,8 +58,8 @@ const Wsubmit = () => {
         px: { xs: 2, sm: 3, md: 5 },
       }}
     >
-      <Grid container justifyContent="center" alignItems="center" spacing={2} style={{ marginTop: '5%' }}>
-        <Grid item xs={12} md={8}>
+      <Grid lg={12} container justifyContent="center" alignItems="center" spacing={2} style={{marginTop:"5%",marginRight:"4%"}}>
+        <Grid item xs={11} md={8}>
           <StyledPaper sx={{ my: 1, p: 2, background: 'lightgray' }}>
             <Typography>
               <Box sx={{ width: '100%' }}>
@@ -79,7 +83,7 @@ const Wsubmit = () => {
               marginLeft:"3.3%"
             }}
           >   */}
-          <Grid item xs={12} md={8}>
+          <Grid item xs={11} md={8}>
             <StyledPaper sx={{ my: 1, p: 2 }}>
               <Typography noWrap>
                 <SimpleTreeView>
@@ -103,7 +107,7 @@ const Wsubmit = () => {
             </StyledPaper>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid item xs={11} md={8}>
             <StyledPaper sx={{ my: 1, p: 2 }}>
               <Typography noWrap>
                 <SimpleTreeView>
@@ -127,7 +131,7 @@ const Wsubmit = () => {
             </StyledPaper>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid item xs={11} md={8}>
             <StyledPaper sx={{ my: 1, p: 2 }}>
               <Typography>
                 <SimpleTreeView>
@@ -151,7 +155,7 @@ const Wsubmit = () => {
             </StyledPaper>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid item xs={11} md={8}>
             <StyledPaper sx={{ my: 1, p: 2 }}>
               <Typography>
                 <SimpleTreeView>
@@ -175,7 +179,7 @@ const Wsubmit = () => {
             </StyledPaper>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid item xs={11} md={8}>
             <StyledPaper sx={{ my: 1, p: 2 }}>
               <Typography>
                 <SimpleTreeView>
@@ -199,7 +203,7 @@ const Wsubmit = () => {
             </StyledPaper>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid item xs={11} md={8}>
             <StyledPaper sx={{ my: 1, p: 2 }}>
               <Typography>
                 <SimpleTreeView>
@@ -224,7 +228,7 @@ const Wsubmit = () => {
           </Grid>
         {/* </Box> */}
 
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <Box
             sx={{
               border: '1px solid #ccc',
@@ -254,7 +258,7 @@ const Wsubmit = () => {
                       }
                       sx={{ marginBottom: 2 }}
                     />
-                    <Link to={'/wsubmitlink6'} style={{ textDecoration: 'none' }}>
+                    <Link to={'/fsubmit'} style={{ textDecoration: 'none' }}>
                       <TreeItem itemId="grid-community" label="submit" />
                     </Link>
                     <TreeItem itemId="grid-premium" label="Status: Graded" />
@@ -264,7 +268,7 @@ const Wsubmit = () => {
             </Paper>
           </Box>
         </Grid>
-        <Grid item xs={12} md={8}>
+        <Grid item xs={11} md={8}>
           <Box
             sx={{
               border: '1px solid #ccc',
@@ -294,7 +298,7 @@ const Wsubmit = () => {
                       }
                       sx={{ marginBottom: 2 }}
                     />
-                    <Link to={'/wsubmitlink6'} style={{ textDecoration: 'none' }}>
+                    <Link to={'/vivavoce'} style={{ textDecoration: 'none' }}>
                       <TreeItem itemId="grid-community" label="submit" />
                     </Link>
                     <TreeItem itemId="grid-premium" label="Status: Graded" />

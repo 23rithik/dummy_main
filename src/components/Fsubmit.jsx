@@ -2,7 +2,7 @@ import { Button, Paper, Table, TableBody, TableCell, TableContainer, TableRow, T
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Wsubmitlink3 = () => {
+const Fsubmit = () => {
   return (
     <div style={{ width: "70%", marginLeft: "15%", marginTop: "8%" }}>
       <TableContainer component={Paper} style={{ marginBottom: "20px" }}>
@@ -62,4 +62,4 @@ const Wsubmitlink3 = () => {
   )
 }
 
-export default Wsubmitlink3
+export default Fsubmit
